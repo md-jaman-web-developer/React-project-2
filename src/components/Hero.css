@@ -1,0 +1,33 @@
+/* Hero.css */
+p {
+  font-size: 25px;
+}
+.hero_contents {
+  margin-top: 50px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero_image img {
+  height: 700px;
+  margin-top: 80px;
+  width: 700px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+.hero-btn {
+  display: flex;
+  gap: 10px; /* Adjust the space between buttons */
+}
+
+/* Add more styles for other elements as needed */
+.scond_btn {
+  background: transparent;
+  color: #000;
+  border: 3px solid green;
+}
